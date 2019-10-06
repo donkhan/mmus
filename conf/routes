@@ -4,7 +4,7 @@
 
 # Home page
 GET     /                                       Application.index
-POST    /invoke-process                         Application.invokeWorkFlow
+POST    /parse-umobile-message                  Application.parse
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
